@@ -9,9 +9,9 @@ letters = True
 digits = True
 punctuation = True
 
-if letters == False:
+if letters == True:
     total_characters += string.ascii_letters
-if digits == False:
+if digits == True:
     total_characters += string.digits
 if punctuation == True:
     total_characters += string.punctuation
